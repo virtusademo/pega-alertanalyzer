@@ -2,9 +2,9 @@
    "kind":"Service",
    "apiVersion":"v1",
    "metadata":{
-      "name":"Pega-Alertanalyzer",
+      "name":"pega-alertanalyzer",
       "labels":{
-         "app":"Pega-Alertanalyzer"
+         "app":"pega-alertanalyzer"
       }
    },
    "spec":{
@@ -16,7 +16,7 @@
          }
       ],
       "selector":{
-         "app":"Pega-Alertanalyzer"
+         "app":"pega-alertanalyzer"
       },
         "type": "LoadBalancer"
    }

@@ -2,20 +2,20 @@
    "kind":"ReplicationController",
    "apiVersion":"v1",
    "metadata":{
-      "name":"pega-alertanalyzer",
+      "name":"pegaalertanalyzer",
       "labels":{
-         "app":"pega-alertanalyzer"
+         "app":"pegaalertanalyzer"
       }
    },
    "spec":{
       "replicas":2,
       "selector":{
-         "app":"pega-alertanalyzer"
+         "app":"pegaalertanalyzer"
       },
       "template":{
          "metadata":{
             "labels":{
-               "app":"pega-alertanalyzer"
+               "app":"pegaalertanalyzer"
             }
          },
          "spec":{
@@ -33,7 +33,7 @@
                         "env": [
                           {
                                 "name": "SERVICE_NAME",
-                                "value": "pega-alertanalyzer"
+                                "value": "pegaalertanalyzer"
                           }
                         ]
 

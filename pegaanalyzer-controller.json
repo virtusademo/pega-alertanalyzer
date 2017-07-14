@@ -27,7 +27,7 @@
                   "ports":[
                      {
                         "name":"tomcat-port",
-                        "containerPort":80
+                        "containerPort":8080
                      }
                   ],
                         "env": [
